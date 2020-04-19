@@ -1,0 +1,20 @@
+
+a{
+	line-height: 10pt;
+
+}
+p{
+	position: static;
+
+}
+.den{
+	font-weight:700;
+}
+/*для мобильников*/
+ @media screen and (max-width: 768px) {
+ 	div{ font-size: 20px }
+ }
+ /*для больших*/
+@media screen and (min-width: 768px) {
+ 	div{ font-size: 25px }
+ }
